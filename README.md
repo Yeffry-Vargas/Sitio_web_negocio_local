@@ -12,5 +12,3 @@ Proyecto entregable de HTML y CSS.
 - **Horario:** 8:00 a.m. a 12:00 m. y 2:00 p.m. a 6:00 p.m.
 
 ## Boceto
-
-(pega aquí el esquema de arriba dentro de un bloque de código)
