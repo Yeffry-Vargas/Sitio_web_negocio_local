@@ -85,9 +85,40 @@
                     <td>$20.000</td>
                 </tr>
             </table>
+        </section>
 
+        <section id="pedidos">
+            <h2>Haz tu pedido</h2>
+            <form action="#" method="get">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="correo">Correo (opcional)</label>
+                <input type="email" id="correo" name="correo">
+
+                <p>Forma de pago</p>
+                <input type="radio" id="transferencia" name="pago" value="transferencia" checked>
+                <label for="transferencia">Transferencia virtual</label>
+                <input type="radio" id="efectivo" name="pago" value="efectivo">
+                <label for="efectivo">Efectivo</label>
+
+                <label for="observaciones">Observaciones</label>
+                <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+
+                <button type="submit">Enviar pedido</button>
+            </form>
         </section>
     </main>
+
+    <footer>
+        <p>Calle 13C # 12-03, Villas de Don Juan</p>
+        <p><abbr title="Teléfono">Tel.</abbr> 300 123 4567</p>
+        <p>Horario: 8 a.m. a 12 p.m. y 2 p.m. a 6 p.m. </p>
+    </footer>
     
 </body>
 </html>
